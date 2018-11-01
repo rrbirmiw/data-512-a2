@@ -31,16 +31,29 @@ Following Python library dependencies are required to run the notebook:
 - csv
 
 ## Files Created
-This notebook creates  CSV files of data extracted and compiled as part of this analysis.
+This notebook creates CSV files of data extracted and compiled as part of this analysis.
 
-The first file...
+1. `page_data.csv`: Data from data source (1) comprising of articles about politicians, their article "revision_ids" and associated country. 
+2. `WPDS_2018_data.csv`: Data from source (2) comprising of population data for each country
+3. `predictions_data.csv`: This file is generated in the Jupyter notebook. It consists of (revision/article ID, ORES prediction) pairs, obtained from the ORES API calls. It is saved here for convenience of not having to recreate it. 
+4 `master_data.csv`: This file is the master data file as required by the assignment. It is a table with schema: 
+  - *(article-name,	  country	rev_id,  	prediction,	  Country,	  population)* 
+             
 
-The Nth file...
+## Code
+
+Code and Python project contained in the jupyter notebook `hcds-512-a2.ipynb`
 
 ## Visualizations Created
 
+As requested by the assignment, 4 visualizations are created, along with two others used in the analysis section. These are tables consisting of countries ranked by the "article-percentage" and "good-article-percentage" fields (see Jupyter Notebook/assignment link). 
+
+In addition, two analogous tables are created for the statistical analysis section on bias. 
+
+All tables were saved to .png files, and can be found in this repository. 
+
 ## License
 
-This assignment code is released under...
+This assignment code is released under an MIT License. 
 
-The data sources are licensed under...
+The data sources are licensed under a CC-BY-SA 4.0 license. 
