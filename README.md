@@ -24,12 +24,13 @@ Documentation for Jupyter Notebook can be found here: http://jupyter-notebook.re
 
 ## Dependencies: 
 Following Python library dependencies are required to run the notebook: 
-- numpy 
-- pandas 
-- scikit-learn
-- requests
-- json 
-- csv
+- numpy: https://docs.scipy.org/doc/numpy-1.15.1/reference/
+- pandas: https://pandas.pydata.org
+- scikit-learn: http://scikit-learn.org/stable/
+  * The code in this report will use scikit-learn's `KMeans()` class to perform clustering on countries by data (see notebook for explanation). (http://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)
+- requests: http://docs.python-requests.org/en/master/
+- json: https://docs.python.org/3/library/json.html
+- csv: https://docs.python.org/3/library/csv.html
 
 ## Files Created
 This notebook creates CSV files of data extracted and compiled as part of this analysis.
