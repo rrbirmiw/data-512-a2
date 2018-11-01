@@ -1,5 +1,6 @@
 # Bias in Data
 *Template for this README comes from https://github.com/Ironholds/data-512-a2* 
+
 Name: Rahul Birmiwal 
 
 Date: 11/1/18
